@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    max-width: 80px;  
+}
+
+ul {
+    position: relative;
+    display: flex;
+}
+
+li {
+    list-style-type: none;   
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+a:hover {
+    background-color: #f0f0f0;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.para {
+    position: relative;
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 4em;
+    line-height: 1.4em;
+}
+
+span {
+    color: green;
+    font-weight: 900;
+}
+
+button {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    font-weight: 700;
+}
+
+.img_box {
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+    margin-top: 50px;
+}
+
+.img_box img {
+    max-width: 340px;
+}
+
+.thumb {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li {
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li:hover {
+    transform: translateY(-15px);
+
+}
+.thumb li img {
+    max-width: 60px;
+}
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon li a {
+    display: inline-block;
+    margin: 3px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    clip-path: circle(600px at right 800px);
+}
+
+@media screen and (min-width : 800px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+
+}
+
+    
+
+
+
+
+
+
+
