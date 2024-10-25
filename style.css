@@ -149,13 +149,6 @@ button {
     clip-path: circle(600px at right 800px);
 }
 
-@media screen and (min-width : 800px) {
-    h2 {
-        font-size: 2rem;
-    }
-
-
-}
 
     
 
